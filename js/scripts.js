@@ -1,14 +1,22 @@
 // var contextfooter = {test: "hello"} 
 var contextupcomingevents= {
-	date1: "Mon. August 28, 2017", description1: "3:00pm | First Day Assembly in McConomy Auditorium", seconddescription1: "4:30pm-6:30pm | All School BBQ in CFA Peace Garden", link1: "events.html#firstday",
-	date2: "Fri. September 1, 2017", description2: "6:00pm-10:00pm | Unblurred Gallery Crawl", link2: "events.html#unblurredgallerycrawl",
-	date3: "Wed. September 6, 2017", description3: "4:30pm | AIAS GBM in CFA 2014", link3: "events.html#aiasgbm08.06",
-	date4: "Sun. September 10, 2017", description4: "10:30pm | Coffee O'Clock in CFA and MM", link4: "events.html#coc.06", 
-	date5: "Mon. September 11, 2017", description5: "4:30pm | Picnic on Flagstaff", link5: "events.html#picnic",
-	date6: "Wed. September 13, 2017", description6: "4:30pm-6:00pm | IKM Firm Tour", link6: "events.html#ikmfirmtour" ,
-	date7: "Fri. September 15, 2017", description7: "All Day | Parking Day", link7: "events.html#parkingday",
+	date1: "Mon. August 28, 2017", description1: "3:00pm | First Day Assembly in McConomy Auditorium", seconddescription1: "4:30pm-6:30pm | All School BBQ in CFA Peace Garden", link1: "firstday",
+	date2: "Fri. September 1, 2017", description2: "6:00pm-10:00pm | Unblurred Gallery Crawl", link2: "unblurredgallerycrawl",
+	date3: "Wed. September 6, 2017", description3: "4:30pm | AIAS GBM in CFA 214", link3: "aiasgbm08.06",
+	date4: "Sun. September 10, 2017", description4: "10:30pm | Coffee O'Clock in CFA and MM", link4: "coc.06", 
+	date5: "Mon. September 11, 2017", description5: "4:30pm | Picnic on Flagstaff", link5: "picnic",
+	date6: "Wed. September 13, 2017", description6: "4:30pm-6:00pm | IKM Firm Tour", link6: "ikmfirmtour" ,
+	date7: "Fri. September 15, 2017", description7: "All Day | Parking Day", link7: "parkingday",
 	}
-var contextevents = {test1: "hello"} 
+var contextevents = {
+	date1: "Mon. August 28, 2017", description1: "3:00pm | First Day Assembly in McConomy Auditorium", seconddescription1: "4:30pm-6:30pm | All School BBQ in CFA Peace Garden", link1: "firstday",
+	date2: "Fri. September 1, 2017", description2: "6:00pm-10:00pm | Unblurred Gallery Crawl", link2: "unblurredgallerycrawl",
+	date3: "Wed. September 6, 2017", description3: "4:30pm | AIAS GBM in CFA 214", link3: "aiasgbm08.06",
+	date4: "Sun. September 10, 2017", description4: "10:30pm | Coffee O'Clock in CFA and MM", link4: "coc.06", 
+	date5: "Mon. September 11, 2017", description5: "4:30pm | Picnic on Flagstaff", link5: "picnic",
+	date6: "Wed. September 13, 2017", description6: "4:30pm-6:00pm | IKM Firm Tour", link6: "ikmfirmtour" ,
+	date7: "Fri. September 15, 2017", description7: "All Day | Parking Day", link7: "parkingday",
+	}
 
 var contextfooter = {description: "Advancing leadership, design, and service among architecture students."} 
 
