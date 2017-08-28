@@ -154,8 +154,10 @@ button.joinbutton:hover {
   width: 30%;
 }
 #banner h1 {
-  font-size: 6em;
+  font-size: 4em;
   margin-top: 20px;
+}
+#banner h1, #banner h2 {
   color: white;
 }
 
@@ -164,11 +166,71 @@ button.joinbutton:hover {
   margin-bottom: 45px;
   height: auto;
 }
-
 img.eventsimages {
+  height: 150px;
+  width: auto;
+  padding: 5px;
+}
+img.fullwidthimages {
   width: 100%;
   height: auto;
-  margin: 5px;
+  padding-bottom: 30px;
+}
+#resourcesverticalmenu {
+  border-style: none;
+  box-shadow: none;
+  width: 100%;
+}
+#resourcesverticalmenu .item {
+  border-style: none !important;
+  box-shadow: none;
+}
+
+#ourteam {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  max-width: 1000px;  
+}
+#ourteam a {
+  cursor:pointer;  
+  color: #bfa253;
+}
+#ourteam a:hover {
+  cursor:pointer;  
+  color: #efcb68;
+  text-decoration: none;
+}
+#ourteam .people {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+#ourteam .people img {
+  display: block;
+  margin: 0px auto;
+  height: 225px;
+  width: 225px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+#ourteam h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+#ourteam .bio {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 /*hacked disable mode for items start*/
 .disabled {
