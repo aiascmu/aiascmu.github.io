@@ -91,7 +91,7 @@ templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.secondtext14 || (depth0 != null ? depth0.secondtext14 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext14","hash":{},"data":data}) : helper)))
     + "</div>\n		<p>Learn more about Freedom By Design <a href=\"http://www.aias.org/programs/freedom-by-design/\" target=\"blank\">here</a></p>\n	</div>\n</div>\n<hr>\n<div id=\""
     + alias4(((helper = (helper = helpers.link6 || (depth0 != null ? depth0.link6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link6","hash":{},"data":data}) : helper)))
-    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
+    + "\" class=\"ui two stackable column grid disabled\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
     + alias4(((helper = (helper = helpers.date6 || (depth0 != null ? depth0.date6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date6","hash":{},"data":data}) : helper)))
     + "</h3>\n		<div class=\"description\">"
     + alias4(((helper = (helper = helpers.time6 || (depth0 != null ? depth0.time6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time6","hash":{},"data":data}) : helper)))
@@ -105,7 +105,7 @@ templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.secondtext6 || (depth0 != null ? depth0.secondtext6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext6","hash":{},"data":data}) : helper)))
     + "</div>\n	</div>\n</div>\n<hr>\n<div id=\""
     + alias4(((helper = (helper = helpers.link7 || (depth0 != null ? depth0.link7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link7","hash":{},"data":data}) : helper)))
-    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
+    + "\" class=\"ui two stackable column grid disabled\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
     + alias4(((helper = (helper = helpers.date7 || (depth0 != null ? depth0.date7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date7","hash":{},"data":data}) : helper)))
     + "</h3>\n		<div class=\"description\">"
     + alias4(((helper = (helper = helpers.time7 || (depth0 != null ? depth0.time7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time7","hash":{},"data":data}) : helper)))
@@ -119,7 +119,7 @@ templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.secondtext7 || (depth0 != null ? depth0.secondtext7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext7","hash":{},"data":data}) : helper)))
     + "</div>\n	</div>\n</div>\n<hr>\n<div id=\""
     + alias4(((helper = (helper = helpers.link8 || (depth0 != null ? depth0.link8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link8","hash":{},"data":data}) : helper)))
-    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
+    + "\" class=\"ui two stackable column grid disabled\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
     + alias4(((helper = (helper = helpers.date8 || (depth0 != null ? depth0.date8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date8","hash":{},"data":data}) : helper)))
     + "</h3>\n		<div class=\"description\">"
     + alias4(((helper = (helper = helpers.time8 || (depth0 != null ? depth0.time8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time8","hash":{},"data":data}) : helper)))
@@ -187,6 +187,34 @@ templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.text12 || (depth0 != null ? depth0.text12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text12","hash":{},"data":data}) : helper)))
     + "</div>\n		<br>\n		<div class=\"description\">"
     + alias4(((helper = (helper = helpers.secondtext12 || (depth0 != null ? depth0.secondtext12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext12","hash":{},"data":data}) : helper)))
+    + "</div>\n	</div>\n</div>\n<hr>\n<div id=\""
+    + alias4(((helper = (helper = helpers.link13 || (depth0 != null ? depth0.link13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link13","hash":{},"data":data}) : helper)))
+    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
+    + alias4(((helper = (helper = helpers.date13 || (depth0 != null ? depth0.date13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date13","hash":{},"data":data}) : helper)))
+    + "</h3>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.time13 || (depth0 != null ? depth0.time13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time13","hash":{},"data":data}) : helper)))
+    + " | "
+    + alias4(((helper = (helper = helpers.description13 || (depth0 != null ? depth0.description13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description13","hash":{},"data":data}) : helper)))
+    + "</div>\n	</div>\n	<div class=\"ui ten wide column\">\n		<h3 class=\"ui header\">"
+    + alias4(((helper = (helper = helpers.description13 || (depth0 != null ? depth0.description13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description13","hash":{},"data":data}) : helper)))
+    + "</h3>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.text13 || (depth0 != null ? depth0.text13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text13","hash":{},"data":data}) : helper)))
+    + "</div>\n		<br>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.secondtext13 || (depth0 != null ? depth0.secondtext13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext13","hash":{},"data":data}) : helper)))
+    + "</div>\n	</div>\n</div>\n<hr>\n<div id=\""
+    + alias4(((helper = (helper = helpers.link15 || (depth0 != null ? depth0.link15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link15","hash":{},"data":data}) : helper)))
+    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
+    + alias4(((helper = (helper = helpers.date15 || (depth0 != null ? depth0.date15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date15","hash":{},"data":data}) : helper)))
+    + "</h3>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.time15 || (depth0 != null ? depth0.time15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time15","hash":{},"data":data}) : helper)))
+    + " | "
+    + alias4(((helper = (helper = helpers.description15 || (depth0 != null ? depth0.description15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description15","hash":{},"data":data}) : helper)))
+    + "</div>\n	</div>\n	<div class=\"ui ten wide column\">\n		<h3 class=\"ui header\">"
+    + alias4(((helper = (helper = helpers.description15 || (depth0 != null ? depth0.description15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description15","hash":{},"data":data}) : helper)))
+    + "</h3>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.text15 || (depth0 != null ? depth0.text15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"text15","hash":{},"data":data}) : helper)))
+    + "</div>\n		<br>\n		<div class=\"description\">"
+    + alias4(((helper = (helper = helpers.secondtext15 || (depth0 != null ? depth0.secondtext15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext15","hash":{},"data":data}) : helper)))
     + "</div>\n	</div>\n</div>\n<hr>\n";
 },"useData":true});
 templates['footer'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
@@ -338,36 +366,6 @@ templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":functio
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "<div class=\"ui medium header\">Upcoming Events</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
-    + alias4(((helper = (helper = helpers.link6 || (depth0 != null ? depth0.link6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link6","hash":{},"data":data}) : helper)))
-    + "\">\n    <div class=\"ui small header\">"
-    + alias4(((helper = (helper = helpers.date6 || (depth0 != null ? depth0.date6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date6","hash":{},"data":data}) : helper)))
-    + "</div>\n    <div class=\"ui medium description\">\n      "
-    + alias4(((helper = (helper = helpers.description6 || (depth0 != null ? depth0.description6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description6","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
-    + alias4(((helper = (helper = helpers.time6 || (depth0 != null ? depth0.time6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time6","hash":{},"data":data}) : helper)))
-    + " - "
-    + alias4(((helper = (helper = helpers.location6 || (depth0 != null ? depth0.location6 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location6","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
-    + alias4(((helper = (helper = helpers.link7 || (depth0 != null ? depth0.link7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link7","hash":{},"data":data}) : helper)))
-    + "\">\n    <div class=\"ui small header\">"
-    + alias4(((helper = (helper = helpers.date7 || (depth0 != null ? depth0.date7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date7","hash":{},"data":data}) : helper)))
-    + "</div>\n    <div class=\"ui medium description\">\n      "
-    + alias4(((helper = (helper = helpers.description7 || (depth0 != null ? depth0.description7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description7","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
-    + alias4(((helper = (helper = helpers.time7 || (depth0 != null ? depth0.time7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time7","hash":{},"data":data}) : helper)))
-    + " - "
-    + alias4(((helper = (helper = helpers.location7 || (depth0 != null ? depth0.location7 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location7","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
-    + alias4(((helper = (helper = helpers.link8 || (depth0 != null ? depth0.link8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link8","hash":{},"data":data}) : helper)))
-    + "\">\n    <div class=\"ui small header\">"
-    + alias4(((helper = (helper = helpers.date8 || (depth0 != null ? depth0.date8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date8","hash":{},"data":data}) : helper)))
-    + "</div>\n    <div class=\"ui medium description\">\n      "
-    + alias4(((helper = (helper = helpers.description8 || (depth0 != null ? depth0.description8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description8","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
-    + alias4(((helper = (helper = helpers.time8 || (depth0 != null ? depth0.time8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time8","hash":{},"data":data}) : helper)))
-    + " - "
-    + alias4(((helper = (helper = helpers.location8 || (depth0 != null ? depth0.location8 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location8","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
     + alias4(((helper = (helper = helpers.link9 || (depth0 != null ? depth0.link9 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link9","hash":{},"data":data}) : helper)))
     + "\">\n    <div class=\"ui small header\">"
     + alias4(((helper = (helper = helpers.date9 || (depth0 != null ? depth0.date9 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date9","hash":{},"data":data}) : helper)))
@@ -387,6 +385,46 @@ templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":functio
     + alias4(((helper = (helper = helpers.time10 || (depth0 != null ? depth0.time10 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time10","hash":{},"data":data}) : helper)))
     + " - "
     + alias4(((helper = (helper = helpers.location10 || (depth0 != null ? depth0.location10 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location10","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
+    + alias4(((helper = (helper = helpers.link11 || (depth0 != null ? depth0.link11 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link11","hash":{},"data":data}) : helper)))
+    + "\">\n    <div class=\"ui small header\">"
+    + alias4(((helper = (helper = helpers.date11 || (depth0 != null ? depth0.date11 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date11","hash":{},"data":data}) : helper)))
+    + "</div>\n    <div class=\"ui medium description\">\n      "
+    + alias4(((helper = (helper = helpers.description11 || (depth0 != null ? depth0.description11 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description11","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
+    + alias4(((helper = (helper = helpers.time11 || (depth0 != null ? depth0.time11 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time11","hash":{},"data":data}) : helper)))
+    + " - "
+    + alias4(((helper = (helper = helpers.location11 || (depth0 != null ? depth0.location11 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location11","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
+    + alias4(((helper = (helper = helpers.link12 || (depth0 != null ? depth0.link12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link12","hash":{},"data":data}) : helper)))
+    + "\">\n    <div class=\"ui small header\">"
+    + alias4(((helper = (helper = helpers.date12 || (depth0 != null ? depth0.date12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date12","hash":{},"data":data}) : helper)))
+    + "</div>\n    <div class=\"ui medium description\">\n      "
+    + alias4(((helper = (helper = helpers.description12 || (depth0 != null ? depth0.description12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description12","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
+    + alias4(((helper = (helper = helpers.time12 || (depth0 != null ? depth0.time12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time12","hash":{},"data":data}) : helper)))
+    + " - "
+    + alias4(((helper = (helper = helpers.location12 || (depth0 != null ? depth0.location12 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location12","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
+    + alias4(((helper = (helper = helpers.link13 || (depth0 != null ? depth0.link13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link13","hash":{},"data":data}) : helper)))
+    + "\">\n    <div class=\"ui small header\">"
+    + alias4(((helper = (helper = helpers.date13 || (depth0 != null ? depth0.date13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date13","hash":{},"data":data}) : helper)))
+    + "</div>\n    <div class=\"ui medium description\">\n      "
+    + alias4(((helper = (helper = helpers.description13 || (depth0 != null ? depth0.description13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description13","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
+    + alias4(((helper = (helper = helpers.time13 || (depth0 != null ? depth0.time13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time13","hash":{},"data":data}) : helper)))
+    + " - "
+    + alias4(((helper = (helper = helpers.location13 || (depth0 != null ? depth0.location13 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location13","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    </a>\n  </div>\n</div>\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
+    + alias4(((helper = (helper = helpers.link15 || (depth0 != null ? depth0.link15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link15","hash":{},"data":data}) : helper)))
+    + "\">\n    <div class=\"ui small header\">"
+    + alias4(((helper = (helper = helpers.date15 || (depth0 != null ? depth0.date15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date15","hash":{},"data":data}) : helper)))
+    + "</div>\n    <div class=\"ui medium description\">\n      "
+    + alias4(((helper = (helper = helpers.description15 || (depth0 != null ? depth0.description15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description15","hash":{},"data":data}) : helper)))
+    + "\n    </div>\n    <hr>\n    <div class=\"ui small description\">\n      "
+    + alias4(((helper = (helper = helpers.time15 || (depth0 != null ? depth0.time15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time15","hash":{},"data":data}) : helper)))
+    + " - "
+    + alias4(((helper = (helper = helpers.location15 || (depth0 != null ? depth0.location15 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location15","hash":{},"data":data}) : helper)))
     + "\n    </div>\n    </a>\n  </div>\n</div>\n<!-- <div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
     + alias4(((helper = (helper = helpers.link9 || (depth0 != null ? depth0.link9 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link9","hash":{},"data":data}) : helper)))
     + "\">\n    <div class=\"ui small header\">"
