@@ -56,6 +56,13 @@ a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+.ui.ordered.list a{
+  text-decoration: none;
+  color: #344a62 !important;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 /*LINK STYLES END*/
 
 
@@ -136,6 +143,12 @@ button.joinbutton:hover {
     opacity:.25;
 }
 
+.newssmallitem.item {
+  width: 50%;
+}
+.newslargeitem.item {
+  width: 100%;
+}
 
 #banner {
   height: auto;
