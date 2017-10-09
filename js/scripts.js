@@ -1,40 +1,11 @@
 // IMPORTANT!!! copy the contents of contextupcomingevents to contextevents exactly, only show 5-7 events on contextupcomingevents!!!
 var contextupcomingevents = {
-
-	date4: "Sat. October 07, 2017",
-	time4: "9:15am", 
-	description4: "Mattress Factory with Annie and Mary Lou", 
-	link4: "mattressfactory", 
-	text4: "As a part of our faculty-student initiative, come tour the exhibits at the Mattress Factory with our very own Annie Ranttila and Mary-Lou Arscott.RSVP by Thursday October 05 to aiascmu@gmail.com!!! Meet at 9:15am at Morewood Bus Stop (Downtown) to bus over together.", 
-	location4: "Meet at Morewood Bus Stop (Downtown) to bus over together.",
-
-	date5: "Sun. October 08, 2017",
-	time5: "TBA", 
-	description5: "Doors Open", 
-	link5: "doorsopen", 
-	text5: "Email aiascmu@gmail.com if you are interested and we can organize a group to go! AIAS will pay ticket fees for those attending with the group.", 
-	location5: "Joel's Table (Maggie Mo 3rd Floor)",
-
-	date6: "Sun. October 08, 2017",
-	time6: "3:00pm", 
-	description6: "Board Meeting", 
-	link6: "boardmeeting10.08", 
-	text6: "Board meetings are now open to the public! Come sit in at our weekly executive board meeting to learn more about the behind the scenes of your chapter.", 
-	location6: "Joel's Table (Maggie Mo 3rd Floor)",
-
 	date7: "Sun. October 08, 2017",
 	time7: "10:30pm", 
 	description7: "Coffee o'Clock", 
 	link7: "coc10.08", 
 	text7: "Dunkin' Donuts and Coffee will be available for purchase in the wee hours of the night.", 
 	location7: "CFA and Maggie Mo Studios",
-
-	date7: "Tues. October 10, 2017",
-	time7: "5:00pm-7:00pm", 
-	description7: "Fall Fest", 
-	link7: "coc10.08", 
-	text7: "A fundraiser to celebrate fall with fun events such as: pumpkin painting, bobbing for apples, cookie decorating, and leaf art. Proceeds will be directed towards AIAS National Conference attendance.", 
-	location7: "CFA Patio",
 
 	date8: "Tues. October 10, 2017",
 	time8: "7:00pm-9:00pm", 
@@ -48,7 +19,7 @@ var contextupcomingevents = {
 	description8: "YAF Storey Telling", 
 	link8: "yafstoreytelling", 
 	text8: "Mentors share their experience with the next generation. Architects tell stories with their words and the forms they create. Storey Telling combines both, creating a way for mentees to connect with compatible mentors through personal experience. At every Storey Telling event, architects and designers share a short personal story on a theme. Join members of the Young Architects Forum for networking and great conversation!", 
-	location8: "Joel's Table (Maggie Mo 3rd Floor)",
+	location8: "Email aiascmu@gmail.com",
 
 	date9: "Wed. October 11, 2017",
 	time9: "1:00-1:30pm", 
@@ -71,6 +42,12 @@ var contextupcomingevents = {
 	text11: "The AIAS is excited to announce the second year of its fall research symposia, now titled CRIT Live. Each program will consist of two professional keynotes, a research tutorial workshop, and a series of presentations, pecha kucha segments, and panels exhibiting student research projects. $25 for AIAS members and $75 for non-members. Also, come see two of our very own members present: Zain Islam-Hashmi and Amy Rosen. Email aiascmu@gmail.com if you are interested. Transportation is provided.", 
 	location11: "Cornell University (transportation is provided)",
 
+	date12: "Sun. October 15, 2017",
+	time12: "3:00pm", 
+	description12: "Board Meeting", 
+	link12: "boardmeeting10.15", 
+	text12: "Board meetings are now open to the public! Come sit in at our weekly executive board meeting to learn more about the behind the scenes of your chapter.", 
+	location12: "Joel's Table (Maggie Mo 3rd Floor)",
 	}
 var contextevents = {
 	date1: "Thurs. October 05, 2017", 
@@ -122,13 +99,6 @@ var contextevents = {
 	text7: "Dunkin' Donuts and Coffee will be available for purchase in the wee hours of the night.", 
 	location7: "CFA and Maggie Mo Studios",
 
-	date7: "Tues. October 10, 2017",
-	time7: "5:00pm-7:00pm", 
-	description7: "Fall Fest", 
-	link7: "coc10.08", 
-	text7: "A fundraiser to celebrate fall with fun events such as: pumpkin painting, bobbing for apples, cookie decorating, and leaf art. Proceeds will be directed towards AIAS National Conference attendance.", 
-	location7: "CFA Patio",
-
 	date8: "Tues. October 10, 2017",
 	time8: "7:00pm-9:00pm", 
 	description8: "PDC Office Hours", 
@@ -141,7 +111,7 @@ var contextevents = {
 	description8: "YAF Storey Telling", 
 	link8: "yafstoreytelling", 
 	text8: "Mentors share their experience with the next generation. Architects tell stories with their words and the forms they create. Storey Telling combines both, creating a way for mentees to connect with compatible mentors through personal experience. At every Storey Telling event, architects and designers share a short personal story on a theme. Join members of the Young Architects Forum for networking and great conversation!", 
-	location8: "Joel's Table (Maggie Mo 3rd Floor)",
+	location8: "Email aiascmu@gmail.com",
 
 	date9: "Wed. October 11, 2017",
 	time9: "1:00-1:30pm", 
@@ -268,6 +238,13 @@ var contextevents = {
 	link26: "pdcoh11.02", 
 	text26: "TBA", 
 	location26: "Joel's Table (Maggie Mo 3rd Floor)",
+
+	date27: "Tues. October 31, 2017",
+	time27: "5:00pm-7:00pm", 
+	description27: "Fall Fest", 
+	link27: "coc10.08", 
+	text27: "A fundraiser to celebrate fall with fun events such as: pumpkin painting, bobbing for apples, cookie decorating, and leaf art. Proceeds will be directed towards AIAS National Conference attendance.", 
+	location27: "CFA Patio",
 	}
 
 var contextfooter = {description: "Advancing leadership, design, and service among architecture students."} 
