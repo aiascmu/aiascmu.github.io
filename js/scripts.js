@@ -1,47 +1,47 @@
 // IMPORTANT!!! copy the contents of contextupcomingevents to contextevents exactly, only show 5-7 events on contextupcomingevents!!!
 var contextupcomingevents = {
-	date7: "Tues. October 10, 2017",
-	time7: "7:00pm-9:00pm", 
-	description7: "PDC Office Hours", 
-	link7: "pdcoh10.10", 
-	text7: "TBA", 
-	location7: "Joel's Table (Maggie Mo 3rd Floor)",
-
-	date8: "Tues. October 10, 2017",
-	time8: "7:00pm-9:00pm", 
-	description8: "YAF Storey Telling", 
-	link8: "yafstoreytelling", 
-	text8: "Mentors share their experience with the next generation. Architects tell stories with their words and the forms they create. Storey Telling combines both, creating a way for mentees to connect with compatible mentors through personal experience. At every Storey Telling event, architects and designers share a short personal story on a theme. Join members of the Young Architects Forum for networking and great conversation!", 
-	location8: "Email aiascmu@gmail.com",
-
-	date9: "Wed. October 11, 2017",
-	time9: "1:00-1:30pm", 
-	description9: "Like n' Snack", 
-	link9: "likensnack", 
-	text9: "Like our FB page and Instagram for a free stroopwafel!", 
-	location9: "Joel's Table (Maggie Mo 3rd Floor) and Hornbostel Table (CFA)",
-
-	date10: "Thurs. October 12, 2017",
-	time10: "7:00pm-9:00pm", 
-	description10: "PDC Office Hours", 
-	link10: "pdcoh10.12", 
-	text10: "TBA", 
-	location10: "Joel's Table (Maggie Mo 3rd Floor)",
-
-	date11: "Sat. October 14, 2017",
-	time11: "Weekend Trip", 
-	description11: "Crit Live!", 
-	link11: "critlive", 
-	text11: "The AIAS is excited to announce the second year of its fall research symposia, now titled CRIT Live. Each program will consist of two professional keynotes, a research tutorial workshop, and a series of presentations, pecha kucha segments, and panels exhibiting student research projects. $25 for AIAS members and $75 for non-members. Also, come see two of our very own members present: Zain Islam-Hashmi and Amy Rosen. Email aiascmu@gmail.com if you are interested. Transportation is provided.", 
-	location11: "Cornell University (transportation is provided)",
-
 	date12: "Sun. October 15, 2017",
 	time12: "3:00pm", 
 	description12: "Board Meeting", 
 	link12: "boardmeeting10.15", 
 	text12: "Board meetings are now open to the public! Come sit in at our weekly executive board meeting to learn more about the behind the scenes of your chapter.", 
 	location12: "Joel's Table (Maggie Mo 3rd Floor)",
-	}
+
+	date13: "Tues. October 17, 2017",
+	time14: "7:00pm-9:00pm", 
+	description13: "PDC Office Hours", 
+	link13: "pdcoh10.17", 
+	text13: "TBA", 
+	location13: "Joel's Table (Maggie Mo 3rd Floor)",
+
+	date14: "Thurs. October 19, 2017",
+	time14: "7:00pm-9:00pm", 
+	description14: "PDC Office Hours", 
+	link14: "pdcoh10.19", 
+	text14: "TBA", 
+	location14: "Joel's Table (Maggie Mo 3rd Floor)",
+
+	date15: "Thurs. October 19, 2017",
+	time15: "Professional Development Chair", 
+	description15: "Release of PDC Newsletter 02", 
+	link15: "pdcnewsletter02", 
+	text15: "The release of the second PDC Newsletter by our Professional Development Chair. Topic TBA", 
+	// location14: "CFA Patio",
+
+	date16: "Sun. October 22, 2017",
+	time16: "3:00pm", 
+	description16: "Board Meeting", 
+	link16: "boardmeeting10.22", 
+	text16: "Board meetings are now open to the public! Come sit in at our weekly executive board meeting to learn more about the behind the scenes of your chapter.", 
+	location16: "Joel's Table (Maggie Mo 3rd Floor)",
+
+	date17: "Sun. October 22, 2017",
+	time17: "10:30pm", 
+	description17: "Coffee o'Clock", 
+	link17: "coc10.22", 
+	text17: "Dunkin' Donuts and Coffee will be available for purchase in the wee hours of the night.", 
+	location15: "CFA and Maggie Mo Studios",
+}
 var contextevents = {
 	date1: "Thurs. October 05, 2017", 
 	time1: "4:45pm", 
