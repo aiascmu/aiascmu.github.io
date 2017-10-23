@@ -39,7 +39,7 @@ var contextupcomingevents = {
 	time23: "5:30pm", 
 	description23: "Networking with YAF", 
 	link23: "networkingwithyaf", 
-	text23: "For upper year students: a panel with YAF about the transition from school to the workplace.", 
+	text23: "This is an event geared towards upper-year and masters students that focuses on the transition between being a full-time student and entering the workforce. A panel of young professionals will be present to introduce themselves, their personal paths, and their career transitions. This panel will include professionals at multiple levels of experience and will include recent alumni as well, who will be speaking about their personal networks, how they were gained, and how they have been utilized recently. After the introduction, the panel will break off into a networking session where students can talk with these professionals about their field, their network, or their transitions as they feel necessary.", 
 	location23: "MM303",
 
 	date24: "Tues. October 31, 2017",
@@ -230,7 +230,7 @@ var contextevents = {
 	time23: "5:30pm", 
 	description23: "Networking with YAF", 
 	link23: "networkingwithyaf", 
-	text23: "For upper year students: a panel with YAF about the transition from school to the workplace.", 
+	text23: "This is an event geared towards upper-year and masters students that focuses on the transition between being a full-time student and entering the workforce. A panel of young professionals will be present to introduce themselves, their personal paths, and their career transitions. This panel will include professionals at multiple levels of experience and will include recent alumni as well, who will be speaking about their personal networks, how they were gained, and how they have been utilized recently. After the introduction, the panel will break off into a networking session where students can talk with these professionals about their field, their network, or their transitions as they feel necessary.", 
 	location23: "MM303",
 
 	date24: "Tues. October 31, 2017",
