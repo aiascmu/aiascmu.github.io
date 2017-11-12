@@ -1,40 +1,51 @@
 // IMPORTANT!!! copy the contents of contextupcomingevents to contextevents exactly, only show 5-7 events on contextupcomingevents!!!
 var contextupcomingevents = {
-	date1: "Wed. November 08, 2017", 
+	date1: "Thurs. November 15, 2017", 
 	time1: "5:30pm", 
-	description1: "Crit Night!", 
-	link1: "critnight", 
-	text1: "Join us in CFA214 to meet with young professionals from YAF! Pin up or bring studio work, midreview drawings, portfolios or resumes to get critiques in a casual setting. *******RSVP by Monday. Nov. 6********", 
-	location1: "CFA214",
+	description1: "Moss Architects Firm Tour", 
+	link1: "mossfirmtour", 
+	text1: "Join us on a visit to Moss Architects, founded by one of our first year professors, Andrew Moss! *******RSVP by Monday. Nov. 13********", 
+	secondtext1: "From their website: We are a Pittsburgh-based architectural firm founded by Andrew Moss with the intent to develop responsive, artful, expressive design solutions. After twelve years managing and designing award-winning projects with the Denver firm, Semple Brown Design, Andrew returned from Denver to his native Pittsburgh, inspired by the change and potential he saw in the city. The range of services reflect the extensive and varied experience that Andrew and his team have developed over the years and includes master planning, architecture and interior design. Diverse clientele range from community master planning to individual home owners. mossArchitects specializes in creative and unique offices, restaurants, retail, residential, adaptive reuse, parks, and cultural facilities with a commitment to client goals as well as a responsibility to site and sustainable practices. We approach each project with a sense of challenge and adventure – resulting in artful, innovative and responsive design that enhances the built environment. We work with clients who are looking for unique design solutions that not only meet their programmatic needs but also improve how they live, work and play in the spaces that are created.",
+	location1: "Meet at Maggie Mo Rotunda at 4:45pm to bus over together",
+
+
+	date2: "Thurs. November 16, 2017",
+	time2: "4:30pm", 
+	description2: "Pie-a-Board-Member", 
+	link2: "pie11.12", 
+	text2: "An annual fundraiser to raise money for upcoming member events; come pie your favorite board members!", 
+	location3: "Location TBA (indoors)",
+
+	date3: "Sun. November 19, 2017", 
+	time3: "7pm-8pm", 
+	description3: "AIAS-NOMAS Thanksgiving Dinner", 
+	link3: "thanksgivingpotluck", 
+	text3: "We are joining up with NOMAS again, this time for a Thanksgiving dinner! Details TBA", 
+	location3: "Location TBA",
 }
 var contextevents = {
-	date1: "Wed. November 08, 2017", 
+	date1: "Thurs. November 15, 2017", 
 	time1: "5:30pm", 
-	description1: "Crit Night!", 
-	link1: "critnight", 
-	text1: "Join us in CFA214 to meet with young professionals from YAF! Pin up or bring studio work, midreview drawings, portfolios or resumes to get critiques in a casual setting. *******RSVP by Monday. Nov. 6********", 
-	location1: "CFA214",
+	description1: "Moss Architects Firm Tour", 
+	link1: "mossfirmtour", 
+	text1: "Join us on a visit to Moss Architects, founded by one of our first year professors, Andrew Moss! *******RSVP by Monday. Nov. 13********", 
+	secondtext1: "From their website: We are a Pittsburgh-based architectural firm founded by Andrew Moss with the intent to develop responsive, artful, expressive design solutions. After twelve years managing and designing award-winning projects with the Denver firm, Semple Brown Design, Andrew returned from Denver to his native Pittsburgh, inspired by the change and potential he saw in the city. The range of services reflect the extensive and varied experience that Andrew and his team have developed over the years and includes master planning, architecture and interior design. Diverse clientele range from community master planning to individual home owners. mossArchitects specializes in creative and unique offices, restaurants, retail, residential, adaptive reuse, parks, and cultural facilities with a commitment to client goals as well as a responsibility to site and sustainable practices. We approach each project with a sense of challenge and adventure – resulting in artful, innovative and responsive design that enhances the built environment. We work with clients who are looking for unique design solutions that not only meet their programmatic needs but also improve how they live, work and play in the spaces that are created.",
+	location1: "Meet at Maggie Mo Rotunda at 4:45pm to bus over together",
 
-	// date1: "Thurs. October 05, 2017", 
-	// time1: "4:45pm", 
-	// description1: "General Body Meeting (MANDATORY)", 
-	// link1: "gbm10.05", 
-	// // text1: "Join us in the CFA Peace Garden after the first day of studio and the First Day Assembly for food, fun, and friends! Meet the first years, upper years, and the 2017-2018 AIAS Board.", 
-	// location1: "CFA214",
 
-	// date2: "Thurs. October 05, 2017",
-	// time2: "Immediately after GBM", 
-	// description2: "Freedom By Design Meeting", 
-	// link2: "fbd10.05", 
-	// text2: "FBD meeting immediately following GBM. Project Team Signups.", 
-	// location3: "CFA214",
+	date2: "Thurs. November 16, 2017",
+	time2: "4:30pm", 
+	description2: "Pie-a-Board-Member", 
+	link2: "pie11.12", 
+	text2: "An annual fundraiser to raise money for upcoming member events; come pie your favorite board members!", 
+	location3: "Location TBA (indoors)",
 
-	// date3: "Fri. October 06. 2017", 
-	// time3: "Professional Development Chair", 
-	// description3: "Release of PDC Newsletter 01", 
-	// link3: "pdcnewsletter01", 
-	// text3: "The release of the first PDC Newsletter by our Professional Development Chair. Learn about 'Becoming an Architect'!", 
-	// // location3: "CFA Peace Garden (Rain Location: CFA Great Hall",
+	date3: "Sun. November 19, 2017", 
+	time3: "7pm-8pm", 
+	description3: "AIAS-NOMAS Thanksgiving Dinner", 
+	link3: "thanksgivingpotluck", 
+	text3: "We are joining up with NOMAS again, this time for a Thanksgiving dinner! Details TBA", 
+	location3: "Location TBA",
 
 	// date4: "Sat. October 07, 2017",
 	// time4: "10:00am", 
@@ -257,18 +268,23 @@ $(function() {
 // -------------
 // -------------
 
+var contextresources = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
 var contextresourcesmenumembership = {itemmembership: "active item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
 var contextresourcesmenuprofessional = {itemmembership: "item", itemprofessional: "active item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
 var contextresourcesmenucommunity = {itemmembership: "item", itemprofessional: "item", itemcommunity: "active item", itemnational: "item", itemmemberdrive: "item"}
 var contextresourcesmenunational = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "active item", itemmemberdrive: "item"}
 var contextresourcesmenumemberdrive = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "active item"}
 
+var resultresources= Handlebars.templates.resourcesmenu(contextresources);
 var resultresourcesmenumembership = Handlebars.templates.resourcesmenu(contextresourcesmenumembership);
 var resultresourcesmenuprofessional = Handlebars.templates.resourcesmenu(contextresourcesmenuprofessional);
 var resultresourcesmenucommunity = Handlebars.templates.resourcesmenu(contextresourcesmenucommunity);
 var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
 var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);
 
+$(function() {
+  $("#resources").html(resultresources);
+});
 $(function() {
   $("#resourcesmenumembership").html(resultresourcesmenumembership);
 });
