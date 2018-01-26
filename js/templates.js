@@ -551,6 +551,8 @@ templates['resourcesmenu'] = template({"compiler":[7,">= 4.0.0"],"main":function
     + "\" href=\"community.html\">Community</a>\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemnational || (depth0 != null ? depth0.itemnational : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemnational","hash":{},"data":data}) : helper)))
     + "\" href=\"national.html\">National</a>\n  <a class=\""
+    + alias4(((helper = (helper = helpers.itemalumni || (depth0 != null ? depth0.itemalumni : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemalumni","hash":{},"data":data}) : helper)))
+    + "\" href=\"alumni.html\">Alumni</a>\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemmemberdrive || (depth0 != null ? depth0.itemmemberdrive : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemmemberdrive","hash":{},"data":data}) : helper)))
     + "\" href=\"https://drive.google.com/open?id=0B2A11UUlfHyicUtwNGxKTkFFLTA\" target = \"_blank\">Member Google Drive</a>\n</div>\n\n";
 },"useData":true});

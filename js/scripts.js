@@ -238,7 +238,7 @@ var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabo
 
 
 
-// -------------
+// ------------- 
 
 $(function() {
   $("#upcomingevents").html(resultupcomingevents);
@@ -264,22 +264,29 @@ $(function() {
   $("#navigationabout").html(resultnavigationabout);
 });
 
-// -------------
-// -------------
-// -------------
 
-var contextresources = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
-var contextresourcesmenumembership = {itemmembership: "active item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
-var contextresourcesmenuprofessional = {itemmembership: "item", itemprofessional: "active item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item"}
-var contextresourcesmenucommunity = {itemmembership: "item", itemprofessional: "item", itemcommunity: "active item", itemnational: "item", itemmemberdrive: "item"}
-var contextresourcesmenunational = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "active item", itemmemberdrive: "item"}
-var contextresourcesmenumemberdrive = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "active item"}
+
+
+// ------------- 
+// ------------- 
+// ------------- 
+// ------------- 
+// ------------- RESOURCES MENU
+
+var contextresources = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
+var contextresourcesmenumembership = {itemmembership: "active item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
+var contextresourcesmenuprofessional = {itemmembership: "item", itemprofessional: "active item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
+var contextresourcesmenucommunity = {itemmembership: "item", itemprofessional: "item", itemcommunity: "active item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
+var contextresourcesmenunational = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "active item", itemmemberdrive: "item", itemalumni: "item"}
+var contextresourcesmenualumni = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "active item"}
+var contextresourcesmenumemberdrive = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "active item", itemalumni: "item"}
 
 var resultresources= Handlebars.templates.resourcesmenu(contextresources);
 var resultresourcesmenumembership = Handlebars.templates.resourcesmenu(contextresourcesmenumembership);
 var resultresourcesmenuprofessional = Handlebars.templates.resourcesmenu(contextresourcesmenuprofessional);
 var resultresourcesmenucommunity = Handlebars.templates.resourcesmenu(contextresourcesmenucommunity);
 var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
+var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
 var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);
 
 $(function() {
@@ -296,6 +303,9 @@ $(function() {
 });
 $(function() {
   $("#resourcesmenunational").html(resultresourcesmenunational);
+});
+$(function() {
+  $("#resourcesmenualumni").html(resultresourcesmenualumni);
 });
 $(function() {
   $("#resourcesmenumemberdrive").html(resultresourcesmenumemberdrive);

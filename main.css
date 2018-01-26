@@ -292,3 +292,34 @@ img.fullwidthimages {
 }
 
 
+/*alumni section start*/
+
+#alumni .people {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+#alumni .people img {
+  display: block;
+  margin: 0px auto;
+  height: 150px;
+  width: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+#alumni h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+#alumni .bio {
+  text-align: left;
+  /*margin-top: 10px;*/
+  margin-bottom: 10px;
+}
+/*alumni section end*/
+
