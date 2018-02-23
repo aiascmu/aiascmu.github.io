@@ -3,9 +3,7 @@
 templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div id=\""
-    + alias4(((helper = (helper = helpers.link1 || (depth0 != null ? depth0.link1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link1","hash":{},"data":data}) : helper)))
-    + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">Winter Break</h3>\n	</div>\n	<div class=\"ui ten wide column\">\n		<h3 class=\"ui header\">Happy Holidays! Stay tuned for upcoming events in the Spring Semester!</h3>\n	</div>\n</div>\n<hr><!-- \n<div id=\""
+  return "<!-- \n<div id=\""
     + alias4(((helper = (helper = helpers.link2 || (depth0 != null ? depth0.link2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link2","hash":{},"data":data}) : helper)))
     + "\" class=\"ui two stackable column grid\">\n	<div class=\"ui six wide column\">\n		<h3 class=\"ui header\">"
     + alias4(((helper = (helper = helpers.date2 || (depth0 != null ? depth0.date2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date2","hash":{},"data":data}) : helper)))
@@ -569,6 +567,6 @@ templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":functio
     + alias4(((helper = (helper = helpers.time1 || (depth0 != null ? depth0.time1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time1","hash":{},"data":data}) : helper)))
     + " - "
     + alias4(((helper = (helper = helpers.location1 || (depth0 != null ? depth0.location1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location1","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html\">\n    <div class=\"ui small header\">Winter Break</div>\n    <div class=\"ui medium description\">\n      Happy Holidays! Stay tuned for upcoming events in the Spring Semester!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
+    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html\">\n    <div class=\"ui small header\">Winter Break</div>\n    <div class=\"ui medium description\">\n      See our full calendar here!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
 },"useData":true});
 })();
