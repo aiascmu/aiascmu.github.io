@@ -31,6 +31,9 @@ hr {
   width: 100%;
 }
 
+.description {
+  margin-bottom: 15px;
+}
 
 /*LINK STYLES BEGIN*/
 .ui.link.card a {
