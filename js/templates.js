@@ -567,6 +567,6 @@ templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":functio
     + alias4(((helper = (helper = helpers.time1 || (depth0 != null ? depth0.time1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time1","hash":{},"data":data}) : helper)))
     + " - "
     + alias4(((helper = (helper = helpers.location1 || (depth0 != null ? depth0.location1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location1","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html\">\n    <div class=\"ui small header\">Winter Break</div>\n    <div class=\"ui medium description\">\n      See our full calendar here!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
+    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html\">\n    <div class=\"ui medium description\">\n      See our full calendar here!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
 },"useData":true});
 })();
