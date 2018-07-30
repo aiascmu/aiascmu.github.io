@@ -384,7 +384,7 @@ var contextresourcesmenumembership = {
 	itemnational: "item", 
 	itemmemberdrive: "item", 
 	itemalumni: "item"
-		}
+	}
 var contextresourcesmenuprofessional = {
 	itemmembership: "item", 
 	itemprofessional: "active item", 
@@ -393,37 +393,27 @@ var contextresourcesmenuprofessional = {
 	itemmemberdrive: "item", 
 	itemalumni: "item"
 	}
-// var contextresourcesmenunational = {
-// 	itemmembership: "item", 
-// 	itemprofessional: "active item", 
-// 	itemfreedombydesign: "item", 
-// 	itemnational: "item", 
-// 	itemmemberdrive: "item", 
-// 	itemalumni: "item"
-// 	}
-// var contextresourcesmenualumni = {
-// 	itemmembership: "item", 
-// 	itemprofessional: "active item", 
-// 	itemfreedombydesign: "item", 
-// 	itemnational: "item", 
-// 	itemmemberdrive: "item", 
-// 	itemalumni: "item"
-// 	}
-// var contextresourcesmenumemberdrive = {
-// 	itemmembership: "item", 
-// 	itemprofessional: "item", 
-// 	itemfreedombydesign: "item", 
-// 	itemnational: "item", 
-// 	itemmemberdrive: "active item", 
-// 	itemalumni: "item"
-// 	}
-
+var contextresourcesmenunational = {
+	itemmembership: "item", 
+	itemprofessional: " item", 
+	itemfreedombydesign: "item", 
+	itemnational: "active item", 
+	itemmemberdrive: "item", 
+	itemalumni: "item"
+	}
+var contextresourcesmenualumni = {
+	itemmembership: "item", 
+	itemprofessional: " item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "item", 
+	itemalumni: "active item"
+	}
 var resultresources= Handlebars.templates.resourcesmenu(contextresources);
 var resultresourcesmenumembership = Handlebars.templates.resourcesmenu(contextresourcesmenumembership);
+var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
 var resultresourcesmenuprofessional = Handlebars.templates.resourcesmenu(contextresourcesmenuprofessional);
-// var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
-// var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
-// var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);
+var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
 
 $(function() {
   $("#resources").html(resultresources);
@@ -432,17 +422,11 @@ $(function() {
   $("#resourcesmenumembership").html(resultresourcesmenumembership);
 });
 $(function() {
+  $("#resourcesmenunational").html(resultresourcesmenunational);
+});
+$(function() {
   $("#resourcesmenuprofessional").html(resultresourcesmenuprofessional);
 });
 $(function() {
-  $("#resourcesmenucommunity").html(resultresourcesmenucommunity);
+  $("#resourcesmenualumni").html(resultresourcesmenualumni);
 });
-// $(function() {
-//   $("#resourcesmenunational").html(resultresourcesmenunational);
-// });
-// $(function() {
-//   $("#resourcesmenualumni").html(resultresourcesmenualumni);
-// });
-// $(function() {
-//   $("#resourcesmenumemberdrive").html(resultresourcesmenumemberdrive);
-// });

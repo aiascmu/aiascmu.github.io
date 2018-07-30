@@ -192,12 +192,12 @@ img.fullwidthimages {
   height: auto;
   padding-bottom: 30px;
 }
-.verticalmenu {
+#verticalmenu {
   border-style: none;
   box-shadow: none;
   width: 100%;
 }
-.sverticalmenu .item {
+#verticalmenu .item {
   border-style: none !important;
   box-shadow: none;
 }
