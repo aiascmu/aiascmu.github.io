@@ -218,10 +218,66 @@ var contextevents = {
 
 var contextfooter = {description: "Advancing leadership, design, and service among architecture students."} 
 
-var contextnavigationhome = {itemoptionhome: "active item", itemoptionevents: "item", itemoptionresources: "item", itemoptionabout: "item", colorhome: "aiascolor", colorevents: "black", colorresources: "black", colorabout: "black"}
-var contextnavigationevents = {itemoptionhome: "item", itemoptionevents: "active item", itemoptionresources: "item", itemoptionabout: "item", colorhome: "black", colorevents: "aiascolor", colorresources: "black", colorabout: "black"} 
-var contextnavigationresources = {itemoptionhome: "item", itemoptionevents: "item", itemoptionresources: "active item", itemoptionabout: "item", colorhome: "black", colorevents: "black", colorresources: "aiascolor", colorabout: "black"} 
-var contextnavigationabout = {itemoptionhome: "item", itemoptionevents: "item", itemoptionresources: "item", itemoptionabout: "active item", colorhome: "black", colorevents: "black", colorresources: "black", colorabout: "aiascolor"} 
+var contextnavigationhome = {
+	itemoptionhome: "active item", 
+	itemoptionevents: "item", 
+	itemoptionresources: "item", 
+	itemoptionfbd: "item",
+	itemoptionabout: "item", 
+	colorhome: "aiascolor", 
+	colorevents: "black", 
+	colorresources: "black",
+	colorfbd: "black", 
+	colorabout: "black"
+	}
+var contextnavigationevents = {
+	itemoptionhome: "item", 
+	itemoptionevents: "active item", 
+	itemoptionresources: "item", 
+	itemoptionfbd: "item",
+	itemoptionabout: "item", 
+	colorhome: "black", 
+	colorevents: "aiascolor", 
+	colorresources: "black",
+	colorfbd: "black", 
+	colorabout: "black"
+	} 
+var contextnavigationresources = {
+	itemoptionhome: "item", 
+	itemoptionevents: "item", 
+	itemoptionresources: "active item", 
+	itemoptionfbd: "item",
+	itemoptionabout: "item", 
+	colorhome: "black", 
+	colorevents: "black", 
+	colorresources: "aiascolor", 
+	colorfbd: "black",
+	colorabout: "black"
+	} 
+var contextnavigationfbd = {
+	itemoptionhome: "item", 
+	itemoptionevents: "item", 
+	itemoptionresources: "item", 
+	itemoptionfbd: "active item",
+	itemoptionabout: "item", 
+	colorhome: "black", 
+	colorevents: "black", 
+	colorresources: "black", 
+	colorfbd: "aiascolor",
+	colorabout: "black"
+	} 
+var contextnavigationabout = {
+	itemoptionhome: "item", 
+	itemoptionevents: "item", 
+	itemoptionresources: "item", 
+	itemoptionfbd: "item",
+	itemoptionabout: "active item", 
+	colorhome: "black", 
+	colorevents: "black", 
+	colorresources: "black",
+	colorfbd: "black", 
+	colorabout: "aiascolor"
+	} 
 
 // -------------
 
@@ -234,6 +290,7 @@ var resultfooter = Handlebars.templates.footer(contextfooter);
 var resultnavigationhome = Handlebars.templates.navigation(contextnavigationhome);
 var resultnavigationevents = Handlebars.templates.navigation(contextnavigationevents);
 var resultnavigationresources = Handlebars.templates.navigation(contextnavigationresources);
+var resultnavigationfbd = Handlebars.templates.navigation(contextnavigationfbd);
 var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabout);
 
 
@@ -261,7 +318,46 @@ $(function() {
   $("#navigationresources").html(resultnavigationresources);
 });
 $(function() {
+  $("#navigationfbd").html(resultnavigationfbd);
+});
+$(function() {
   $("#navigationabout").html(resultnavigationabout);
+});
+
+
+// ------------- 
+// ------------- 
+// ------------- 
+// ------------- 
+// ------------- fbd menu
+var contextfbdabout = {
+	itemfbdresources: "item", 
+	itemfbdabout: "active item", 
+	itemfbdprojects: "item",
+	}
+var contextfbdresources = {
+	itemfbdresources: "active item", 
+	itemfbdabout: "item", 
+	itemfbdprojects: "item",
+	}
+var contextfbdprojects = {
+	itemfbdresources: "item", 
+	itemfbdabout: "item", 
+	itemfbdprojects: "active item",
+	}
+
+var resultfbdabout= Handlebars.templates.fbdmenu(contextfbdabout);
+var resultfbdresources= Handlebars.templates.fbdmenu(contextfbdresources);
+var resultfbdprojects= Handlebars.templates.fbdmenu(contextfbdprojects);
+
+$(function() {
+  $("#fbdabout").html(resultfbdabout);
+});
+$(function() {
+  $("#fbdresources").html(resultfbdresources);
+});
+$(function() {
+  $("#fbdprojects").html(resultfbdprojects);
 });
 
 
@@ -273,18 +369,58 @@ $(function() {
 // ------------- 
 // ------------- RESOURCES MENU
 
-var contextresources = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
-var contextresourcesmenumembership = {itemmembership: "active item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
-var contextresourcesmenuprofessional = {itemmembership: "item", itemprofessional: "active item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
-var contextresourcesmenucommunity = {itemmembership: "item", itemprofessional: "item", itemcommunity: "active item", itemnational: "item", itemmemberdrive: "item", itemalumni: "item"}
-var contextresourcesmenunational = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "active item", itemmemberdrive: "item", itemalumni: "item"}
-var contextresourcesmenualumni = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "item", itemalumni: "active item"}
-var contextresourcesmenumemberdrive = {itemmembership: "item", itemprofessional: "item", itemcommunity: "item", itemnational: "item", itemmemberdrive: "active item", itemalumni: "item"}
+var contextresources = {
+	itemmembership: "item", 
+	itemprofessional: "item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "item", 
+	itemalumni: "item"	
+	}
+var contextresourcesmenumembership = {
+	itemmembership: "active item", 
+	itemprofessional: "item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "item", 
+	itemalumni: "item"
+		}
+var contextresourcesmenuprofessional = {
+	itemmembership: "item", 
+	itemprofessional: "active item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "item", 
+	itemalumni: "item"
+	}
+var contextresourcesmenunational = {
+	itemmembership: "item", 
+	itemprofessional: "item", 
+	itemfreedombydesign: "item", 
+	itemnational: "active item", 
+	itemmemberdrive: "item", 
+	itemalumni: "item"
+	}
+var contextresourcesmenualumni = {
+	itemmembership: "item", 
+	itemprofessional: "item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "item", 
+	itemalumni: "active item"
+	}
+var contextresourcesmenumemberdrive = {
+	itemmembership: "item", 
+	itemprofessional: "item", 
+	itemfreedombydesign: "item", 
+	itemnational: "item", 
+	itemmemberdrive: "active item", 
+	itemalumni: "item"
+	}
 
 var resultresources= Handlebars.templates.resourcesmenu(contextresources);
 var resultresourcesmenumembership = Handlebars.templates.resourcesmenu(contextresourcesmenumembership);
 var resultresourcesmenuprofessional = Handlebars.templates.resourcesmenu(contextresourcesmenuprofessional);
-var resultresourcesmenucommunity = Handlebars.templates.resourcesmenu(contextresourcesmenucommunity);
 var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
 var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
 var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);

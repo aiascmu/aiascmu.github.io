@@ -405,6 +405,17 @@ templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.secondtext26 || (depth0 != null ? depth0.secondtext26 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"secondtext26","hash":{},"data":data}) : helper)))
     + "</div>\n	</div>\n</div>\n<hr>\n -->";
 },"useData":true});
+templates['fbdmenu'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return "<div class=\"ui vertical menu \" id=\"verticalmenu\">\n  <a class=\""
+    + alias4(((helper = (helper = helpers.itemfbdabout || (depth0 != null ? depth0.itemfbdabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemfbdabout","hash":{},"data":data}) : helper)))
+    + "\" href=\"freedombydesign.html\">About</a>\n  <a class=\""
+    + alias4(((helper = (helper = helpers.itemfbdresources || (depth0 != null ? depth0.itemfbdresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemfbdresources","hash":{},"data":data}) : helper)))
+    + "\" href=\"fbdresources.html\">Resources</a>\n  <a class=\""
+    + alias4(((helper = (helper = helpers.itemfbdprojects || (depth0 != null ? depth0.itemfbdprojects : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemfbdprojects","hash":{},"data":data}) : helper)))
+    + "\" href=\"fbdprojects.html\">Projects</a>\n</div>\n\n";
+},"useData":true});
 templates['footer'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper;
 
@@ -421,7 +432,9 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + alias4(((helper = (helper = helpers.itemoptionevents || (depth0 != null ? depth0.itemoptionevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionevents","hash":{},"data":data}) : helper)))
     + "\">Events</a>\n        <a href=\"resources.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionresources || (depth0 != null ? depth0.itemoptionresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionresources","hash":{},"data":data}) : helper)))
-    + "\">Resources</a>\n        <a href=\"about.html\" class=\""
+    + "\">Resources</a>\n        <a href=\"freedombydesign.html\" class=\""
+    + alias4(((helper = (helper = helpers.itemoptionfbd || (depth0 != null ? depth0.itemoptionfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionfbd","hash":{},"data":data}) : helper)))
+    + "\">Freedom By Design</a>\n        <a href=\"about.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionabout || (depth0 != null ? depth0.itemoptionabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionabout","hash":{},"data":data}) : helper)))
     + "\">About</a>\n        <div class=\"item right aligned\"  style=\"margin: 0;padding: 0;\"><button class=\"ui button joinbutton\"><a href=\"http://www.aias.org/resources/#join\" target=\"_blank\">Join</a></button></div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<div class=\"ui left vertical sidebar labeled icon menu\">\n  <a href=\"index.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionhome || (depth0 != null ? depth0.itemoptionhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionhome","hash":{},"data":data}) : helper)))
@@ -435,7 +448,11 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + alias4(((helper = (helper = helpers.itemoptionresources || (depth0 != null ? depth0.itemoptionresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionresources","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorresources || (depth0 != null ? depth0.colorresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorresources","hash":{},"data":data}) : helper)))
-    + " desktop letter icon\"></i>\n    Resources\n  </a>\n  <a href=\"about.html\" class=\""
+    + " desktop letter icon\"></i>\n    Resources\n  </a>\n  <a href=\"freedombydesign.html\" class=\""
+    + alias4(((helper = (helper = helpers.itemoptionfbd || (depth0 != null ? depth0.itemoptionfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionfbd","hash":{},"data":data}) : helper)))
+    + "\">\n    <i class=\""
+    + alias4(((helper = (helper = helpers.colorfbd || (depth0 != null ? depth0.colorfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorfbd","hash":{},"data":data}) : helper)))
+    + " desktop letter icon\"></i>\n    Freedom By Design\n  </a>\n  <a href=\"about.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionabout || (depth0 != null ? depth0.itemoptionabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionabout","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorabout || (depth0 != null ? depth0.colorabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorabout","hash":{},"data":data}) : helper)))
@@ -450,103 +467,14 @@ templates['person'] = template({"compiler":[7,">= 4.0.0"],"main":function(contai
     + alias4(((helper = (helper = helpers.body || (depth0 != null ? depth0.body : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"body","hash":{},"data":data}) : helper)))
     + "\n  </div>\n</div>\n";
 },"useData":true});
-templates['propertiesaccordion'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
-
-  return "<div class=\"ui accordion\">\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestateapartments || (depth0 != null ? depth0.titlestateapartments : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestateapartments","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Apartments\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstateapartments || (depth0 != null ? depth0.contentstateapartments : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstateapartments","hash":{},"data":data}) : helper)))
-    + "\">\n    <div class=\"ui list\" >\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleeastwoodapts || (depth0 != null ? depth0.styleeastwoodapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleeastwoodapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"eastwood.html\">Eastwood Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleriverbluffapts || (depth0 != null ? depth0.styleriverbluffapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleriverbluffapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"riverbluff.html\">River Bluff Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylewalnutstapts || (depth0 != null ? depth0.stylewalnutstapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylewalnutstapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"walnutst.html\">Walnut St. Apts</a>\n    </div>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestaterestaurants || (depth0 != null ? depth0.titlestaterestaurants : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestaterestaurants","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Restaurants\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstaterestaurants || (depth0 != null ? depth0.contentstaterestaurants : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstaterestaurants","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylewongsfamilyrestaurant || (depth0 != null ? depth0.stylewongsfamilyrestaurant : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylewongsfamilyrestaurant","hash":{},"data":data}) : helper)))
-    + "\" href=\"wongsfamilyrestaurant.html\">Wong's Family Restaurant</a><br>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylejohnnywongschinesebistro || (depth0 != null ? depth0.stylejohnnywongschinesebistro : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylejohnnywongschinesebistro","hash":{},"data":data}) : helper)))
-    + "\" href=\"johnnywongschinesebistro.html\">Johnny Wong's Chinese Bistro</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestatesinglefamilyhomes || (depth0 != null ? depth0.titlestatesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestatesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Single Family Homes\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstatesinglefamilyhomes || (depth0 != null ? depth0.contentstatesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstatesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylesinglefamilyhomes || (depth0 != null ? depth0.stylesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\" href=\"singlefamilyhomes.html\">Single Family Homes</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestateofficecomplexes || (depth0 != null ? depth0.titlestateofficecomplexes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestateofficecomplexes","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Office Complexes\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstateofficecomplexes || (depth0 != null ? depth0.contentstateofficecomplexes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstateofficecomplexes","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleprofessionalvillageeastofficecomplex || (depth0 != null ? depth0.styleprofessionalvillageeastofficecomplex : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleprofessionalvillageeastofficecomplex","hash":{},"data":data}) : helper)))
-    + "\" href=\"professionalvillageeastofficecomplex.html\">Professional Village East Office Complex</a>\n  </div>\n\n\n\n\n\n\n<!-- <div class=\"ui accordion\">\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestateapartments || (depth0 != null ? depth0.titlestateapartments : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestateapartments","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Apartments\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstateapartments || (depth0 != null ? depth0.contentstateapartments : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstateapartments","hash":{},"data":data}) : helper)))
-    + "\">\n\n    <div class=\"ui list\" >\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleeastwoodapts || (depth0 != null ? depth0.styleeastwoodapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleeastwoodapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"eastwood.html\">Eastwood Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleriverbluffapts || (depth0 != null ? depth0.styleriverbluffapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleriverbluffapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"riverbluff.html\">River Bluff Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylewalnutstapts || (depth0 != null ? depth0.stylewalnutstapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylewalnutstapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"walnutst.html\">Walnut St. Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleautumnwoodsapts || (depth0 != null ? depth0.styleautumnwoodsapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleautumnwoodsapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"autumnwoods.html\">Autumn Woods Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylecountryclubapts || (depth0 != null ? depth0.stylecountryclubapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylecountryclubapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"countryclub.html\">Country Club Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styletowneterraceapts || (depth0 != null ? depth0.styletowneterraceapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styletowneterraceapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"towneterrace.html\">Towne Terrace Apts</a>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylemulberryapts || (depth0 != null ? depth0.stylemulberryapts : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylemulberryapts","hash":{},"data":data}) : helper)))
-    + "\" href=\"mulberry.html\">Mulberry Apts</a>\n    </div>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestatehotel || (depth0 != null ? depth0.titlestatehotel : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestatehotel","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Hotel\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstatehotel || (depth0 != null ? depth0.contentstatehotel : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstatehotel","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleraintreeinn || (depth0 != null ? depth0.styleraintreeinn : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleraintreeinn","hash":{},"data":data}) : helper)))
-    + "\" href=\"raintreeinn.html\">Raintree Inn</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestaterestaurants || (depth0 != null ? depth0.titlestaterestaurants : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestaterestaurants","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Restaurants\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstaterestaurants || (depth0 != null ? depth0.contentstaterestaurants : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstaterestaurants","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylewongsfamilyrestautant || (depth0 != null ? depth0.stylewongsfamilyrestautant : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylewongsfamilyrestautant","hash":{},"data":data}) : helper)))
-    + "\" href=\"wongsfamilyrestaurant.html\">Wong's Family Restaurant</a><br>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylejohnnywongschinesebistro || (depth0 != null ? depth0.stylejohnnywongschinesebistro : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylejohnnywongschinesebistro","hash":{},"data":data}) : helper)))
-    + "\" href=\"johnnywongschinesebistro.html\">Johnny Wong's Chinese Bistro</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestatesinglefamilyhomes || (depth0 != null ? depth0.titlestatesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestatesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Single Family Homes\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstatesinglefamilyhomes || (depth0 != null ? depth0.contentstatesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstatesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylesinglefamilyhomes || (depth0 != null ? depth0.stylesinglefamilyhomes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylesinglefamilyhomes","hash":{},"data":data}) : helper)))
-    + "\" href=\"singlefamilyhomes.html\">Single Family Homes</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestateofficecomplexes || (depth0 != null ? depth0.titlestateofficecomplexes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestateofficecomplexes","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Office Complexes\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstateofficecomplexes || (depth0 != null ? depth0.contentstateofficecomplexes : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstateofficecomplexes","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.styleprofessionalvillageeastofficecomplex || (depth0 != null ? depth0.styleprofessionalvillageeastofficecomplex : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"styleprofessionalvillageeastofficecomplex","hash":{},"data":data}) : helper)))
-    + "\" href=\"professionalvillageeastofficecomplex.html\">Professional Village East Office Complex</a>\n  </div>\n\n  <div class=\""
-    + alias4(((helper = (helper = helpers.titlestatemobilehomeparks || (depth0 != null ? depth0.titlestatemobilehomeparks : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"titlestatemobilehomeparks","hash":{},"data":data}) : helper)))
-    + "\">\n    <i class=\"dropdown icon\"></i>\n    Mobile Home Parks\n  </div>\n  <div class=\""
-    + alias4(((helper = (helper = helpers.contentstatemobilehomeparks || (depth0 != null ? depth0.contentstatemobilehomeparks : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentstatemobilehomeparks","hash":{},"data":data}) : helper)))
-    + "\">\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylesherwoodmobilehomepark || (depth0 != null ? depth0.stylesherwoodmobilehomepark : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylesherwoodmobilehomepark","hash":{},"data":data}) : helper)))
-    + "\" href=\"sherwoodmobilehomepark.html\">Sherwood Mobile Home Park</a><br>\n      <a class=\"item "
-    + alias4(((helper = (helper = helpers.stylebourneendmobilehomepark || (depth0 != null ? depth0.stylebourneendmobilehomepark : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"stylebourneendmobilehomepark","hash":{},"data":data}) : helper)))
-    + "\" href=\"bourneendmobilehomepark.html\">Bourne End Mobile Home Park</a>\n  </div>\n</div>\n -->";
-},"useData":true});
 templates['resourcesmenu'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"ui vertical menu \" id=\"resourcesverticalmenu\">\n  <a class=\""
+  return "<div class=\"ui vertical menu \" id=\"verticalmenu\">\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemmembership || (depth0 != null ? depth0.itemmembership : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemmembership","hash":{},"data":data}) : helper)))
     + "\" href=\"membership.html\">Membership</a>\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemprofessional || (depth0 != null ? depth0.itemprofessional : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemprofessional","hash":{},"data":data}) : helper)))
     + "\" href=\"professional.html\">Professional</a>\n  <a class=\""
-    + alias4(((helper = (helper = helpers.itemcommunity || (depth0 != null ? depth0.itemcommunity : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemcommunity","hash":{},"data":data}) : helper)))
-    + "\" href=\"community.html\">Community</a>\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemnational || (depth0 != null ? depth0.itemnational : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemnational","hash":{},"data":data}) : helper)))
     + "\" href=\"national.html\">National</a>\n  <a class=\""
     + alias4(((helper = (helper = helpers.itemalumni || (depth0 != null ? depth0.itemalumni : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemalumni","hash":{},"data":data}) : helper)))
