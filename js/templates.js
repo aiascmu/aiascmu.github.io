@@ -444,15 +444,15 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + alias4(((helper = (helper = helpers.itemoptionevents || (depth0 != null ? depth0.itemoptionevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionevents","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorevents || (depth0 != null ? depth0.colorevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorevents","hash":{},"data":data}) : helper)))
-    + " calendar icon\"></i>\n    Events\n  </a>\n  <a href=\"resources.html\" class=\""
+    + " calendar outline icon\"></i>\n    Events\n  </a>\n  <a href=\"resources.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionresources || (depth0 != null ? depth0.itemoptionresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionresources","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorresources || (depth0 != null ? depth0.colorresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorresources","hash":{},"data":data}) : helper)))
-    + " desktop letter icon\"></i>\n    Resources\n  </a>\n  <a href=\"freedombydesign.html\" class=\""
+    + " newspaper outline icon\"></i>\n    Resources\n  </a>\n  <a href=\"freedombydesign.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionfbd || (depth0 != null ? depth0.itemoptionfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionfbd","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorfbd || (depth0 != null ? depth0.colorfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorfbd","hash":{},"data":data}) : helper)))
-    + " desktop letter icon\"></i>\n    Freedom By Design\n  </a>\n  <a href=\"about.html\" class=\""
+    + " heart outline icon\"></i>\n    Freedom By Design\n  </a>\n  <a href=\"about.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionabout || (depth0 != null ? depth0.itemoptionabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionabout","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorabout || (depth0 != null ? depth0.colorabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorabout","hash":{},"data":data}) : helper)))
