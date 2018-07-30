@@ -393,37 +393,37 @@ var contextresourcesmenuprofessional = {
 	itemmemberdrive: "item", 
 	itemalumni: "item"
 	}
-var contextresourcesmenunational = {
-	itemmembership: "item", 
-	itemprofessional: "item", 
-	itemfreedombydesign: "item", 
-	itemnational: "active item", 
-	itemmemberdrive: "item", 
-	itemalumni: "item"
-	}
-var contextresourcesmenualumni = {
-	itemmembership: "item", 
-	itemprofessional: "item", 
-	itemfreedombydesign: "item", 
-	itemnational: "item", 
-	itemmemberdrive: "item", 
-	itemalumni: "active item"
-	}
-var contextresourcesmenumemberdrive = {
-	itemmembership: "item", 
-	itemprofessional: "item", 
-	itemfreedombydesign: "item", 
-	itemnational: "item", 
-	itemmemberdrive: "active item", 
-	itemalumni: "item"
-	}
+// var contextresourcesmenunational = {
+// 	itemmembership: "item", 
+// 	itemprofessional: "active item", 
+// 	itemfreedombydesign: "item", 
+// 	itemnational: "item", 
+// 	itemmemberdrive: "item", 
+// 	itemalumni: "item"
+// 	}
+// var contextresourcesmenualumni = {
+// 	itemmembership: "item", 
+// 	itemprofessional: "active item", 
+// 	itemfreedombydesign: "item", 
+// 	itemnational: "item", 
+// 	itemmemberdrive: "item", 
+// 	itemalumni: "item"
+// 	}
+// var contextresourcesmenumemberdrive = {
+// 	itemmembership: "item", 
+// 	itemprofessional: "item", 
+// 	itemfreedombydesign: "item", 
+// 	itemnational: "item", 
+// 	itemmemberdrive: "active item", 
+// 	itemalumni: "item"
+// 	}
 
 var resultresources= Handlebars.templates.resourcesmenu(contextresources);
 var resultresourcesmenumembership = Handlebars.templates.resourcesmenu(contextresourcesmenumembership);
 var resultresourcesmenuprofessional = Handlebars.templates.resourcesmenu(contextresourcesmenuprofessional);
-var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
-var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
-var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);
+// var resultresourcesmenunational = Handlebars.templates.resourcesmenu(contextresourcesmenunational);
+// var resultresourcesmenualumni = Handlebars.templates.resourcesmenu(contextresourcesmenualumni);
+// var resultresourcesmenumemberdrive = Handlebars.templates.resourcesmenu(contextresourcesmenumemberdrive);
 
 $(function() {
   $("#resources").html(resultresources);
@@ -437,12 +437,12 @@ $(function() {
 $(function() {
   $("#resourcesmenucommunity").html(resultresourcesmenucommunity);
 });
-$(function() {
-  $("#resourcesmenunational").html(resultresourcesmenunational);
-});
-$(function() {
-  $("#resourcesmenualumni").html(resultresourcesmenualumni);
-});
-$(function() {
-  $("#resourcesmenumemberdrive").html(resultresourcesmenumemberdrive);
-});
+// $(function() {
+//   $("#resourcesmenunational").html(resultresourcesmenunational);
+// });
+// $(function() {
+//   $("#resourcesmenualumni").html(resultresourcesmenualumni);
+// });
+// $(function() {
+//   $("#resourcesmenumemberdrive").html(resultresourcesmenumemberdrive);
+// });
