@@ -1,5 +1,5 @@
 // IMPORTANT!!! copy the contents of contextupcomingevents to contextevents exactly, only show 5-7 events on contextupcomingevents!!!
-var contextupcomingevents = {
+var contextupcomingcalendar = {
 	// date1: "Thurs. November 15, 2017", 
 	// time1: "5:30pm", 
 	// description1: "Moss Architects Firm Tour", 
@@ -23,7 +23,7 @@ var contextupcomingevents = {
 	// text3: "We are joining up with NOMAS again, this time for a Thanksgiving dinner! Details TBA", 
 	// location3: "Location TBA",
 }
-var contextevents = {
+var contextcalendar = {
 	// date1: "Thurs. November 15, 2017", 
 	// time1: "5:30pm", 
 	// description1: "Moss Architects Firm Tour", 
@@ -220,60 +220,60 @@ var contextfooter = {description: "Advancing leadership, design, and service amo
 
 var contextnavigationhome = {
 	itemoptionhome: "active item", 
-	itemoptionevents: "item", 
+	itemoptioncalendar: "item", 
 	itemoptionresources: "item", 
 	itemoptionfbd: "item",
 	itemoptionabout: "item", 
 	colorhome: "aiascolor", 
-	colorevents: "black", 
+	colorcalendar: "black", 
 	colorresources: "black",
 	colorfbd: "black", 
 	colorabout: "black"
 	}
-var contextnavigationevents = {
+var contextnavigationcalendar = {
 	itemoptionhome: "item", 
-	itemoptionevents: "active item", 
+	itemoptioncalendar: "active item", 
 	itemoptionresources: "item", 
 	itemoptionfbd: "item",
 	itemoptionabout: "item", 
 	colorhome: "black", 
-	colorevents: "aiascolor", 
+	colorcalendar: "aiascolor", 
 	colorresources: "black",
 	colorfbd: "black", 
 	colorabout: "black"
 	} 
 var contextnavigationresources = {
 	itemoptionhome: "item", 
-	itemoptionevents: "item", 
+	itemoptioncalendar: "item", 
 	itemoptionresources: "active item", 
 	itemoptionfbd: "item",
 	itemoptionabout: "item", 
 	colorhome: "black", 
-	colorevents: "black", 
+	colorcalendar: "black", 
 	colorresources: "aiascolor", 
 	colorfbd: "black",
 	colorabout: "black"
 	} 
 var contextnavigationfbd = {
 	itemoptionhome: "item", 
-	itemoptionevents: "item", 
+	itemoptioncalendar: "item", 
 	itemoptionresources: "item", 
 	itemoptionfbd: "active item",
 	itemoptionabout: "item", 
 	colorhome: "black", 
-	colorevents: "black", 
+	colorcalendar: "black", 
 	colorresources: "black", 
 	colorfbd: "aiascolor",
 	colorabout: "black"
 	} 
 var contextnavigationabout = {
 	itemoptionhome: "item", 
-	itemoptionevents: "item", 
+	itemoptioncalendar: "item", 
 	itemoptionresources: "item", 
 	itemoptionfbd: "item",
 	itemoptionabout: "active item", 
 	colorhome: "black", 
-	colorevents: "black", 
+	colorcalendar: "black", 
 	colorresources: "black",
 	colorfbd: "black", 
 	colorabout: "aiascolor"
@@ -281,14 +281,14 @@ var contextnavigationabout = {
 
 // -------------
 
-var resultupcomingevents = Handlebars.templates.upcomingevents(contextupcomingevents);
-var resultevents = Handlebars.templates.events(contextevents);
+var resultupcomingcalendar = Handlebars.templates.upcomingevents(contextupcomingcalendar);
+var resultcalendar= Handlebars.templates.calendar(contextcalendar);
 
 var resultfooter = Handlebars.templates.footer(contextfooter);
 
 
 var resultnavigationhome = Handlebars.templates.navigation(contextnavigationhome);
-var resultnavigationevents = Handlebars.templates.navigation(contextnavigationevents);
+var resultnavigationcalendar = Handlebars.templates.navigation(contextnavigationcalendar);
 var resultnavigationresources = Handlebars.templates.navigation(contextnavigationresources);
 var resultnavigationfbd = Handlebars.templates.navigation(contextnavigationfbd);
 var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabout);
@@ -298,10 +298,10 @@ var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabo
 // ------------- 
 
 $(function() {
-  $("#upcomingevents").html(resultupcomingevents);
+  $("#upcoming").html(resultupcomingcalendar);
 });
 $(function() {
-  $("#eventspage").html(resultevents);
+  $("#calendarpage").html(resultcalendar);
 });
 $(function() {
   $("#footer").html(resultfooter);
@@ -312,7 +312,7 @@ $(function() {
   $("#navigationhome").html(resultnavigationhome);
 });
 $(function() {
-  $("#navigationevents").html(resultnavigationevents);
+  $("#navigationcalendar").html(resultnavigationcalendar);
 });
 $(function() {
   $("#navigationresources").html(resultnavigationresources);

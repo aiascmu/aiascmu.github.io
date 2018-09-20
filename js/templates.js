@@ -1,6 +1,6 @@
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
-templates['events'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+templates['calendar'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "<!-- \n<div id=\""
@@ -428,9 +428,9 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
 
   return "<style>\n  .hidden.menu {\n    display: none;\n  }\n  .masthead.segment {\n    height: 100%;\n    padding: 1em 0em;\n  }\n  .masthead .logo.item img {\n    margin-right: 1em;\n  }\n  .masthead .ui.menu .ui.button {\n    margin-left: 0.5em;\n  }\n  .masthead h1.ui.header {\n    margin-top: 3em;\n    margin-bottom: 0em;\n    font-size: 4em;\n    font-weight: normal;\n  }\n  .masthead h2 {\n    font-size: 1.7em;\n    font-weight: normal;\n  }\n  .ui.vertical.stripe {\n    padding: 8em 0em;\n  }\n  .ui.vertical.stripe h3 {\n    font-size: 2em;\n  }\n  .ui.vertical.stripe .button + h3,\n  .ui.vertical.stripe p + h3 {\n    margin-top: 3em;\n  }\n  .ui.vertical.stripe .floated.image {\n    clear: both;\n  }\n  .ui.vertical.stripe p {\n    font-size: 1.33em;\n  }\n  .ui.vertical.stripe .horizontal.divider {\n    margin: 3em 0em;\n  }\n  .quote.stripe.segment {\n    padding: 0em;\n  }\n  .quote.stripe.segment .grid .column {\n    padding-top: 5em;\n    padding-bottom: 5em;\n  }\n  .footer.segment {\n    padding: 5em 0em;\n  }\n  .secondary.menu .toc.item {\n    display: none;\n  }\n  .ui.secondary.menu {\n    border-bottom: none;\n  }\n  .ui.secondary.inverted.pointing.menu {\n    border: none;\n  }\n  @media only screen and (max-width: 700px) {\n    .ui.fixed.menu {\n      display: none !important;\n    }\n    .ui.secondary.menu .item,\n    .ui.secondary.menu .menu {\n      display: none;\n    }\n    .secondary.menu .toc.item {\n      display: block;\n      padding-left: 0;\n    }\n    .masthead.segment {\n      /*min-height: 350px;*/\n    }\n    .masthead h1.ui.header {\n      font-size: 2em;\n      margin-top: 1.5em;\n    }\n    .masthead h2 {\n      margin-top: 0.5em;\n      font-size: 1.5em;\n    }\n  }\n</style>\n\n<div class=\"pusher\">\n  <div class=\"ui vertical masthead center aligned segment overlay\">\n    <div class=\"ui container\">\n      <div class=\"ui secondary inverted menu\">\n        <a class=\"toc item\">\n          <i class=\"white sidebar icon\"></i>\n        </a>\n        <a href=\"index.html\" class=\"item\" style=\"margin: 0 10px 0 0;padding: 0;\"><img src=\"img/logowhite.svg\"></a>\n        <a href=\"index.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionhome || (depth0 != null ? depth0.itemoptionhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionhome","hash":{},"data":data}) : helper)))
-    + "\">Home</a>\n        <a href=\"events.html\" class=\""
-    + alias4(((helper = (helper = helpers.itemoptionevents || (depth0 != null ? depth0.itemoptionevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionevents","hash":{},"data":data}) : helper)))
-    + "\">Events</a>\n        <a href=\"resources.html\" class=\""
+    + "\">Home</a>\n        <a href=\"calendar.html\" class=\""
+    + alias4(((helper = (helper = helpers.itemoptioncalendar || (depth0 != null ? depth0.itemoptioncalendar : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptioncalendar","hash":{},"data":data}) : helper)))
+    + "\">Calendar</a>\n        <a href=\"resources.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionresources || (depth0 != null ? depth0.itemoptionresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionresources","hash":{},"data":data}) : helper)))
     + "\">Resources</a>\n        <a href=\"freedombydesign.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionfbd || (depth0 != null ? depth0.itemoptionfbd : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionfbd","hash":{},"data":data}) : helper)))
@@ -440,11 +440,11 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + alias4(((helper = (helper = helpers.itemoptionhome || (depth0 != null ? depth0.itemoptionhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionhome","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorhome || (depth0 != null ? depth0.colorhome : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorhome","hash":{},"data":data}) : helper)))
-    + " home icon\"></i>\n    Home\n  </a>\n  <a href=\"events.html\" class=\""
-    + alias4(((helper = (helper = helpers.itemoptionevents || (depth0 != null ? depth0.itemoptionevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionevents","hash":{},"data":data}) : helper)))
+    + " home icon\"></i>\n    Home\n  </a>\n  <a href=\"calendar.html\" class=\""
+    + alias4(((helper = (helper = helpers.itemoptioncalendar || (depth0 != null ? depth0.itemoptioncalendar : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptioncalendar","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
-    + alias4(((helper = (helper = helpers.colorevents || (depth0 != null ? depth0.colorevents : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorevents","hash":{},"data":data}) : helper)))
-    + " calendar outline icon\"></i>\n    Events\n  </a>\n  <a href=\"resources.html\" class=\""
+    + alias4(((helper = (helper = helpers.colorcalendar || (depth0 != null ? depth0.colorcalendar : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorcalendar","hash":{},"data":data}) : helper)))
+    + " calendar outline icon\"></i>\n    Calendar\n  </a>\n  <a href=\"resources.html\" class=\""
     + alias4(((helper = (helper = helpers.itemoptionresources || (depth0 != null ? depth0.itemoptionresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"itemoptionresources","hash":{},"data":data}) : helper)))
     + "\">\n    <i class=\""
     + alias4(((helper = (helper = helpers.colorresources || (depth0 != null ? depth0.colorresources : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"colorresources","hash":{},"data":data}) : helper)))
@@ -485,7 +485,7 @@ templates['resourcesmenu'] = template({"compiler":[7,">= 4.0.0"],"main":function
 templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"ui medium header\">Upcoming Events</div>\n\n<!-- <div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html#"
+  return "<div class=\"ui medium header\">Upcoming Events</div>\n\n<!-- <div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"calendar.html#"
     + alias4(((helper = (helper = helpers.link1 || (depth0 != null ? depth0.link1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"link1","hash":{},"data":data}) : helper)))
     + "\">\n    <div class=\"ui small header\">"
     + alias4(((helper = (helper = helpers.date1 || (depth0 != null ? depth0.date1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"date1","hash":{},"data":data}) : helper)))
@@ -495,6 +495,6 @@ templates['upcomingevents'] = template({"compiler":[7,">= 4.0.0"],"main":functio
     + alias4(((helper = (helper = helpers.time1 || (depth0 != null ? depth0.time1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"time1","hash":{},"data":data}) : helper)))
     + " - "
     + alias4(((helper = (helper = helpers.location1 || (depth0 != null ? depth0.location1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location1","hash":{},"data":data}) : helper)))
-    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"events.html\">\n    <div class=\"ui medium description\">\n      See our full calendar here!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
+    + "\n    </div>\n    </a>\n  </div>\n</div> -->\n<div class=\"ui link card\">\n  <div class=\"content\">\n    <a href=\"calendar.html\">\n    <div class=\"ui medium description\">\n      See our full calendar here!\n    </div>\n    <hr>\n    </a>\n  </div>\n</div>\n";
 },"useData":true});
 })();
